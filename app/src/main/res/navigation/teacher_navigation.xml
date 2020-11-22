@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teacher_navigation"
+    app:startDestination="@id/nav_list_schedule">
+
+    <fragment
+        android:id="@+id/nav_list_schedule"
+        android:name="com.herokuapp.PrivateLearningApp.ui.main.teacher.ListScheduleFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list_schedule" />
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.herokuapp.PrivateLearningApp.ui.main.teacher.schedule.ScheduleFragment"
+        android:label="@string/my_schedule"
+        tools:layout="@layout/fragment_schedule_teacher" />
+    <fragment
+        android:id="@+id/nav_absen"
+        android:name="com.herokuapp.PrivateLearningApp.ui.main.teacher.AttendanceFragment"
+        android:label="@string/menu_Absen"
+        tools:layout="@layout/fragment_attendance" />
+</navigation>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Private Learning</string>
+
+    <string name="login">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_as">Sebagai</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+
+    <string name="regiter_choose">Pilih Registrasi</string>
+    <string name="cancel">Batal</string>
+    <string name="form_regis">FORM REGISTRASI</string>
+    <string name="phone_number">No. HP</string>
+    <string name="birth_date">Tanggal Lahir</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="male">Laki-laki</string>
+    <string name="female">Perempuan</string>
+    <string name="address">Alamat</string>
+    <string name="education">Pendidikan</string>
+    <string name="grade">Kelas</string>
+    <string name="gpa">IPK</string>
+    <string name="Photo">Foto</string>
+    <string name="choose">Pilih Foto</string>
+    <string name="createAccount">Belum punya akun?</string>
+    <string name="register">Register</string>
+    <string name="login_failed">Login Gagal</string>
+    <string name="check">Silahkan cek kembali informasi login kamu</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading…</string>
+    <string name="title_activity_teacher">TeacherActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">Email</string>
+
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="menu_list">Daftar Jadwal</string>
+    <string name="my_schedule">Jadwalku</string>
+    <string name="menu_Absen">Absensi</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="nama">Nama</string>
+    <string name="edit_profile">Form Edit Profile</string>
+    <string name="update">Update Profile</string>
+    <string name="formatText"> : %s</string>
+</resources>

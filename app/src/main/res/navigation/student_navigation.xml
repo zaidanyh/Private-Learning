@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_navigation"
+    app:startDestination="@id/nav_list_schedule_student">
+
+    <fragment
+        android:id="@+id/nav_list_schedule_student"
+        android:name="com.herokuapp.PrivateLearningApp.ui.main.student.ScheduleFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_schedule_student" />
+</navigation>
